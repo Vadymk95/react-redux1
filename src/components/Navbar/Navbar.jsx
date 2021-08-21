@@ -40,6 +40,13 @@ export const Navbar = () => {
       >
         Settings
       </a>
+      <a
+        className="navbar-link"
+        href="#"
+        onClick={handleClickLink(paths.dataList)}
+      >
+        List
+      </a>
     </div>
   );
 };

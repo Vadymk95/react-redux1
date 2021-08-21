@@ -1,5 +1,5 @@
 import { createStore } from 'redux';
 import { reducers } from './reducers';
-import { composeWithDevTools } from 'redux-devtools-extension';
+import { middlewares } from './middlewares';
 
-export const store = createStore(reducers, composeWithDevTools());
+export const store = createStore(reducers, middlewares);
