@@ -1,3 +1,5 @@
 .profile {
-  
+  border-bottom: 1px solid rgb(184,184,184);
+  box-shadow: 0 5px 15px rgb(184,184,184);
+  padding: 20px;
 }

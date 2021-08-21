@@ -11,7 +11,7 @@ export const LoginForm = () => {
 
     const profile = {
       name: form['name'].value,
-      lastname: form['lastname'].value,
+      lastName: form['lastname'].value,
     };
 
     dispatch(profileActions.setProfile(profile));
@@ -20,10 +20,10 @@ export const LoginForm = () => {
   return (
     <form className="form form-login" onSubmit={handleSubmit}>
       <div className="field">
-        <input type="text" name="name" />
+        <input type="text" name="name" autocomplete="off"/>
       </div>
       <div className="field">
-        <input type="text" name="lastname" />
+        <input type="text" name="lastname" autocomplete="off"/>
       </div>
       <div>
         <button>Отправить</button>
