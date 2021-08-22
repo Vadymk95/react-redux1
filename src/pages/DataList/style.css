@@ -1,3 +1,8 @@
 .data-list .block {
   height: 50px;
+  color: white;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
 }

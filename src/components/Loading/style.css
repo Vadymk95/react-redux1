@@ -1,0 +1,33 @@
+.loading {
+  background-color: rgba(255, 255, 255, 0.356);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes spring {
+  0% {
+    transform: translateY(-30px) rotate(0deg);
+    background-color: lightblue;;
+  }
+  50% {
+    transform: translateY(30px) rotate(1800deg);
+    background-color: #fff;
+  }
+  100% {
+    transform: translateY(-30px) rotate(360deg);
+    background-color: blue;
+  }
+} 
+
+.loader-spring {
+  width: 70px;
+  height: 20px;
+  background-color: lightblue;
+  animation: spring infinite 1s linear;
+}

@@ -10,7 +10,7 @@ export const postsReducer = (state = initialState, action) => {
     case postsActionTypes.SET_POSTS:
       return {
         ...state,
-        post: action.payload,
+        posts: action.payload,
       };
     case postsActionTypes.SET_LOADING:
       return {
